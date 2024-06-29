@@ -1,0 +1,49 @@
+{% extends 'basic_template.html' %}
+{% load static i18n %}
+{% block title %}
+    Best Residential Management Software | Sebastián Morales
+{% endblock title %}
+{% block main %}
+    <main class="main" id="main-section">
+        {% include 'page/sections/hero.html' %}
+        <div class="features-subhero_bg">
+            <div class="container">
+                {% include 'page/sections/features_1.html' %}
+                {% include 'page/sections/features_2.html' %}
+            </div>
+        </div>
+        <div class="features-section features-section__gradient-bg">
+            <div class="container">
+                {% include 'page/sections/pms.html' %}
+                {% include 'page/sections/pmw.html' %}
+            </div>
+        </div>
+        <div class="features-section features-section__gradient-bg">
+            <div class="container">
+                {% include 'page/sections/lms.html' %}
+                {% include 'page/sections/rmsts.html' %}
+            </div>
+        </div>
+        <div class="features-section">
+            {% include 'page/sections/rvmskt.html' %}
+        </div>
+        {% include 'page/sections/pricing.html' %}
+        <div class="features-section">
+            <div class="container">
+                {% include 'page/sections/why_us.html' %}
+            </div>
+        </div>
+        <div class="features-section features-section__gradient-bg">
+            <div class="container">
+                {% include 'page/sections/centralised_accounting.html' %}
+                {% include 'page/sections/report_analytics.html' %}
+            </div>
+        </div>
+        <div class="segment__faq">
+            {% include 'page/sections/FAQ.html' %}
+        </div>
+        <div class="features-section residential__bottom">
+            {% include 'page/sections/speak_with_us.html' %}
+        </div>
+    </main>
+{% endblock main %}

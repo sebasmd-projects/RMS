@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-
+from django.utils.translation import gettext_lazy as _
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -31,7 +31,9 @@ THIRD_PARTY_APPS = [
     'auditlog',
     'import_export',
     'whitenoise.runserver_nostatic',
-    'django_ckeditor_5'
+    'django_ckeditor_5',
+    'parler',
+    'rosetta'
 ]
 
 CUSTOM_APPS = [
@@ -45,6 +47,14 @@ CUSTOM_APPS = [
 
 INSTALLED_APPS = THIRD_PARTY_APPS + DJANGO_APPS + CUSTOM_APPS
 
+LOCALE_PATHS = [
+    app_path / 'locale' for app_path in [BASE_DIR / app.replace('.', '/') for app in CUSTOM_APPS]
+]
+
+LOCALE_PATHS.append(str(BASE_DIR / 'app_core' / 'locale'))
+
+INSTALLED_APPS = THIRD_PARTY_APPS + DJANGO_APPS + CUSTOM_APPS
+
 UTILS_PATH = 'apps.common.utils'
 
 ADMIN_URL = os.getenv('DJANGO_ADMIN_URL')
@@ -52,6 +62,7 @@ ADMIN_URL = os.getenv('DJANGO_ADMIN_URL')
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -122,9 +133,27 @@ PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
 ]
 
-LANGUAGE_CODE = 'es-co'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'America/Bogota'
+
+LANGUAGES = [
+    ('es', _('Spanish')),
+    ('en', _('English'))
+]
+
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'es', },
+        {'code': 'en', },
+    ),
+    'default': {
+        'fallbacks': ['en'],
+        'hide_untranslated': False,
+    }
+}
+
+ROSETTA_SHOW_AT_ADMIN_PANEL = True
 
 USE_I18N = True
 

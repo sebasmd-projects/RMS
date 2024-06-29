@@ -1,0 +1,50 @@
+{% extends 'raw.html' %}
+
+{% load static i18n %}
+
+{% block meta %}
+    <meta charset="UTF-8">
+    <meta http-equiv="PRAGMA" content="NO-CACHE" />
+    <meta http-equiv="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Best Residential Management Software | Sebastián Morales" name="title" />
+    <meta content="Best Residential Management Software | Sebastián Morales" property="og:title" />
+    <meta content="{% static 'imgs/favicon/favicon.png' %}" property="og:image"/>
+    <meta content="https://sebasmoralesd.com/rms" property="og:url" />
+    <meta content="RMS Sebastián Morales" property="og:site_name" />
+    <meta content="Affordable Residential Management Tool to Help Manage. Recognized by Salesforce. Request a demo!" property="og:description"/>
+    <meta content="Affordable Residential Management Tool to Help Manage. Recognized by Salesforce. Request a demo!" name="description" />
+    <meta content="article" property="og:type" />
+{% endblock meta %}
+
+{% block canonical %}
+    <link href="https://sebasmoralesd.com/rms" rel="canonical"/>
+    <link href="https://sebasmoralesd.com/rms" hreflang="x-default" rel="alternate"/>
+    <link href="https://sebasmoralesd.com/rms" hreflang="{{ LANGUAGE_CODE }}" rel="alternate" />
+{% endblock canonical %}
+
+{% block fonts %}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+{% endblock fonts %}
+
+{% block third_css %}
+    <link href="{% static 'imgs/favicon/favicon.png' %}" rel="icon" type="image/png" />
+    <link href="{% static 'css/jquery.fancybox.min.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/bootstrap-grid.css' %}" rel="stylesheet"/>
+    <link href="{% static 'css/cyrillic.css' %}" rel="stylesheet">
+    <link href="https://s3-us-west-2.amazonaws.com/www.bookingninjas.com/css/screen.css" media="screen" rel="stylesheet">
+    <link href="https://s3-us-west-2.amazonaws.com/www.bookingninjas.com/css/flags.min.css" rel="stylesheet">
+{% endblock third_css %}
+
+{% block third_js %}
+    <script src="https://kit.fontawesome.com/d432194db4.js" crossorigin="anonymous"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+{% endblock third_js %}
+
+{% block body_third_js %}
+    <script src="{% static 'js/slick.js' %}"></script>
+    <script src="{% static 'js/fancybox.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/common.js' %}"></script>
+{% endblock body_third_js %}
