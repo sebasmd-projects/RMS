@@ -159,7 +159,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = '/rms/public/static/'
+STATIC_URL = 'rms/public/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -177,7 +177,7 @@ STATICFILES_FINDERS = [
 
 MEDIA_ROOT = str(BASE_DIR / 'public' / 'media')
 
-MEDIA_URL = '/rms/public/media/'
+MEDIA_URL = 'rms/public/media/'
 
 STORAGES = {
     "staticfiles": {
