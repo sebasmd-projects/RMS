@@ -166,7 +166,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = str(BASE_DIR / 'public' / 'staticfiles')
 
-STATIC_URL = 'public/static/'
+STATIC_URL = 'rms/public/static/'
 
 STATICFILES_DIRS = [str(BASE_DIR / 'public' / 'static')]
 
