@@ -159,25 +159,25 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = 'RMS/public/static/'
+STATIC_URL = 'rms/public/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATIC_ROOT = str(BASE_DIR / 'RMS' /'public' / 'staticfiles')
+STATIC_ROOT = str(BASE_DIR / 'public' / 'staticfiles')
 
-STATIC_URL = 'RMS/public/static/'
+STATIC_URL = 'public/static/'
 
-STATICFILES_DIRS = [str(BASE_DIR / 'RMS' / 'public' / 'static')]
+STATICFILES_DIRS = [str(BASE_DIR / 'public' / 'static')]
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
 
-MEDIA_ROOT = str(BASE_DIR / 'RMS' / 'public' / 'media')
+MEDIA_ROOT = str(BASE_DIR / 'public' / 'media')
 
-MEDIA_URL = 'RMS/public/media/'
+MEDIA_URL = 'rms/public/media/'
 
 STORAGES = {
     "staticfiles": {
@@ -225,7 +225,6 @@ customColorPalette = [
         'label': 'Blue'
     },
 ]
-
 CKEDITOR_5_CONFIGS = {
     'default': {
         'toolbar': [
