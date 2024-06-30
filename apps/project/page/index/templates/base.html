@@ -1,20 +1,20 @@
 {% extends 'raw.html' %}
 
 {% load static i18n %}
-
+    
 {% block meta %}
     <meta charset="UTF-8">
     <meta http-equiv="PRAGMA" content="NO-CACHE" />
     <meta http-equiv="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="Best Residential Management Software | Sebastián Morales" name="title" />
-    <meta content="Best Residential Management Software | Sebastián Morales" property="og:title" />
+    <meta content="{% trans 'Best Residential Management Software | Sebastián Morales' %}" name="title" />
+    <meta content="{% trans 'Best Residential Management Software | Sebastián Morales' %}" property="og:title" />
     <meta content="https://sebasmoralesd.com/rms/public/static/imgs/favicon/favicon.png" property="og:image"/>
     <meta content="https://sebasmoralesd.com/rms" property="og:url" />
-    <meta content="RMS Sebastián Morales" property="og:site_name" />
-    <meta content="Affordable Residential Management Tool to Help Manage. Recognized by Salesforce. Request a demo!" property="og:description"/>
-    <meta content="Affordable Residential Management Tool to Help Manage. Recognized by Salesforce. Request a demo!" name="description" />
+    <meta content="RMS, PMS Sebastián Morales" property="og:site_name" />
+    <meta content="{% trans 'Affordable Residential Management Tool to Help Manage. Recognized by Salesforce. Request a demo!' %}" property="og:description"/>
+    <meta content="{% trans 'Affordable Residential Management Tool to Help Manage. Recognized by Salesforce. Request a demo!' %}" name="description" />
     <meta content="article" property="og:type" />
 {% endblock meta %}
 

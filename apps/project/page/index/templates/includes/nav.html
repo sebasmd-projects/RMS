@@ -1,0 +1,120 @@
+{% load static i18n %}
+
+{% get_current_language as LANGUAGE_CODE %}
+
+{% get_available_languages as LANGUAGES %}
+
+<nav class="navigation">
+    <ul>
+        <li>
+            <a href="/">
+                {% trans 'HOME' %}
+            </a>
+        </li>
+        <li>
+            <a class="navigation-dropdown__click">
+                {% trans 'FEATURES' %}
+            </a>
+            <span class="navigation-dropdown__trigger">
+                <i class="fas fa-chevron-down"></i>
+            </span>
+            <div class="navigation-dropdown">
+                <ul>
+                    <li>
+                        <a href="/">
+                            {% trans 'CORE FEATURES' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'ARTIFICIAL INTELLIGENCE' %}
+                        </a
+                        >
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'AUTOMATIC DATA PROCESSING' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'PMS on SALESFORCE' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'PMS INTEGRATION' %}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="/">
+                {% trans 'PRICING' %}
+            </a>
+        </li>
+        <li>
+            <a class="navigation-dropdown__click">
+                {% trans 'RESOURCES' %}
+            </a>
+            <span class="navigation-dropdown__trigger">
+                <i class="fas fa-chevron-down"></i>
+            </span>
+            <div class="navigation-dropdown">
+                <ul>
+                    <li>
+                        <a href="/">
+                            {% trans 'CLIENT PORTAL' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'BLOG' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'FAQS' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            {% trans 'CUSTOMER STORIES' %}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="/">{% trans 'ABOUT US' %}</a></li>
+        <li class="navigation__lang">
+            <a class="navigation-dropdown__click">
+                <i class="flag {% if LANGUAGE_CODE == 'es' %}flag-spain{% else %}flag-united-states{% endif %}"></i>
+                <span>{% if LANGUAGE_CODE == 'es' %}Español{% else %}English{% endif %}</span>
+            </a>
+            <span class="navigation-dropdown__trigger">
+                <i class="fas fa-chevron-down"></i>
+            </span>
+            <div class="navigation-dropdown">
+                <ul>
+                    <li>
+                        <a href="/">
+                            <i class="flag {% if LANGUAGE_CODE == 'es' %}flag-united-states{% else %}flag-spain{% endif %}"></i>
+                            {% if LANGUAGE_CODE == 'es' %}English{% else %}Español{% endif %}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="navigation__item-button navigation__item--mobile">
+            <a href="/" class="button-orange">
+                {% trans 'REQUEST A PLAYGROUND' %}
+            </a>
+        </li>
+        <li class="navigation__item-button navigation__item--mobile">
+            <a href="/" class="button-orange">
+                {% trans 'SCHEDULE A MEETING' %}
+            </a>
+        </li>
+    </ul>
+</nav>
