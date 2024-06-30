@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.http import HttpResponse
-from django.shortcuts import render
-from django.urls import reverse
+from django.shortcuts import redirect, render
+from django.utils import translation
 from django.utils.translation import gettext_lazy as _
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import status
@@ -25,7 +25,6 @@ except:
 def robots_txt(request):
     lines = [
         "User-agent: *",
-        "Disallow: /*",
         "Disallow: /SETUP",
         "Disallow: /ENV",
         "Disallow: /PHPMYADMIN",
@@ -37,6 +36,7 @@ def robots_txt(request):
     ]
 
     return HttpResponse("\n".join(lines), content_type="text/plain")
+
 
 def handler400(request, exception, *args, **argv):
     status = 400
@@ -99,6 +99,17 @@ def handler500(request, *args, **argv):
             'error_favicon': ''
         }
     )
+
+
+def set_language(request):
+    lang_code = request.GET.get('lang', None)
+    if lang_code and lang_code in dict(settings.LANGUAGES).keys():
+        translation.activate(lang_code)
+        response = redirect(request.META.get('HTTP_REFERER'))
+        response.set_cookie(settings.LANGUAGE_COOKIE_NAME, lang_code)
+        return response
+    else:
+        return redirect(request.META.get('HTTP_REFERER'))
 
 
 class DecoratedTokenObtainPairView(TokenObtainPairView):

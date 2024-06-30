@@ -98,7 +98,7 @@
             <div class="navigation-dropdown">
                 <ul>
                     <li>
-                        <a href="/">
+                        <a href="{% url 'set_language' %}?lang={% if LANGUAGE_CODE == 'es' %}en{% else %}es{% endif %}">
                             <i class="flag {% if LANGUAGE_CODE == 'es' %}flag-united-states{% else %}flag-colombia{% endif %}"></i>
                             {% if LANGUAGE_CODE == 'es' %}English{% else %}Español{% endif %}
                         </a>
