@@ -166,7 +166,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = str(BASE_DIR / 'rms' /'public' / 'staticfiles')
 
-STATIC_URL = 'public/static/'
+STATIC_URL = 'rms/public/static/'
 
 STATICFILES_DIRS = [str(BASE_DIR / 'rms' / 'public' / 'static')]
 
@@ -225,6 +225,7 @@ customColorPalette = [
         'label': 'Blue'
     },
 ]
+
 CKEDITOR_5_CONFIGS = {
     'default': {
         'toolbar': [
