@@ -42,11 +42,6 @@ class UserModel(TimeStampedModel, AbstractUser):
         'first_name',
         'last_name'
     ]
-
-    is_cleaner = BooleanField(
-        _("Is cleaner"),
-        default=False
-    )
     
     country_code = CharField(
         _('código de país'),
