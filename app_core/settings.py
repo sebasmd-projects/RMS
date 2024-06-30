@@ -159,25 +159,25 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = 'rms/public/static/'
+STATIC_URL = 'RMS/public/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATIC_ROOT = str(BASE_DIR / 'rms' /'public' / 'staticfiles')
+STATIC_ROOT = str(BASE_DIR / 'RMS' /'public' / 'staticfiles')
 
-STATIC_URL = 'rms/public/static/'
+STATIC_URL = 'RMS/public/static/'
 
-STATICFILES_DIRS = [str(BASE_DIR / 'rms' / 'public' / 'static')]
+STATICFILES_DIRS = [str(BASE_DIR / 'RMS' / 'public' / 'static')]
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
 
-MEDIA_ROOT = str(BASE_DIR / 'public' / 'media')
+MEDIA_ROOT = str(BASE_DIR / 'RMS' / 'public' / 'media')
 
-MEDIA_URL = 'rms/public/media/'
+MEDIA_URL = 'RMS/public/media/'
 
 STORAGES = {
     "staticfiles": {
