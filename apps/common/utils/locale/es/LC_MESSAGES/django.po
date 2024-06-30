@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 00:05-0500\n"
+"PO-Revision-Date: 2024-06-30 00:06-0500\n"
+"Last-Translator: Sebastián Morales <sebasmoralesd@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\apps\common\utils\middleware.py:60
+msgid "timestamp"
+msgstr "marca de tiempo"
+
+#: .\apps\common\utils\middleware.py:61
+msgid "method"
+msgstr "método"
+
+#: .\apps\common\utils\middleware.py:62
+msgid "url"
+msgstr "url"
+
+#: .\apps\common\utils\middleware.py:63
+msgid "status"
+msgstr "estado"
+
+#: .\apps\common\utils\middleware.py:64
+msgid "client_ip"
+msgstr "ip_cliente"
+
+#: .\apps\common\utils\middleware.py:65
+msgid "referring_page"
+msgstr "página_de_referencia"
+
+#: .\apps\common\utils\middleware.py:66
+msgid "origin"
+msgstr "origen"
+
+#: .\apps\common\utils\models.py:16
+msgid "idioma"
+msgstr "idioma"
+
+#: .\apps\common\utils\models.py:24
+msgid "creado"
+msgstr "creado"
+
+#: .\apps\common\utils\models.py:30
+msgid "actualizado"
+msgstr "actualizado"
+
+#: .\apps\common\utils\models.py:36
+msgid "esta activo"
+msgstr "activo"
+
+#: .\apps\common\utils\models.py:41
+msgid "prioridad"
+msgstr "prioridad"
+
+#: .\apps\common\utils\models.py:54
+msgid "peticiones"
+msgstr "peticiones"
+
+#: .\apps\common\utils\models.py:82 .\apps\common\utils\models.py:83
+msgid "Peticiones"
+msgstr "Peticiones"
+
+#: .\apps\common\utils\views.py:49
+msgid "Error 400"
+msgstr "Error 400"
+
+#: .\apps\common\utils\views.py:50
+msgid "Bad request"
+msgstr "Solicitud incorrecta"
+
+#: .\apps\common\utils\views.py:65
+msgid "Error 403"
+msgstr "Error 403"
+
+#: .\apps\common\utils\views.py:66
+msgid "Prohibited request"
+msgstr "Solicitud prohibida"
+
+#: .\apps\common\utils\views.py:81
+msgid "Error 404"
+msgstr "Error 404"
+
+#: .\apps\common\utils\views.py:82
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: .\apps\common\utils\views.py:96
+msgid "Error 500"
+msgstr "Error 500"
+
+#: .\apps\common\utils\views.py:97
+msgid "Server error"
+msgstr "Error del Servidor"
+
+#~ msgid "Solicitud Incorrecta"
+#~ msgstr "Solicitud Incorrecta"
+
+#~ msgid "Solicitud Prohibida"
+#~ msgstr "Solicitud Prohibida"
+
+#~ msgid "Página no encontrada"
+#~ msgstr "Página no encontrada"
+
+#~ msgid "Error del Servidor"
+#~ msgstr "Error del Servidor"

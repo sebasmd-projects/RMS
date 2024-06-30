@@ -225,6 +225,7 @@ customColorPalette = [
         'label': 'Blue'
     },
 ]
+
 CKEDITOR_5_CONFIGS = {
     'default': {
         'toolbar': [

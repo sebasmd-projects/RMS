@@ -44,7 +44,7 @@ class UserModel(TimeStampedModel, AbstractUser):
     ]
     
     country_code = CharField(
-        _('código de país'),
+        _('country code'),
         max_length=10,
         blank=True,
         null=True,
@@ -69,8 +69,8 @@ class UserModel(TimeStampedModel, AbstractUser):
 
     class Meta:
         db_table = 'apps_project_common_user'
-        verbose_name = _('Usuario')
-        verbose_name_plural = _('Usuarios')
+        verbose_name = _('User')
+        verbose_name_plural = _('Users')
 
 
 auditlog.register(

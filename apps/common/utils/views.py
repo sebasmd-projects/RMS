@@ -1,5 +1,7 @@
 from django.conf import settings
+from django.http import HttpResponse
 from django.shortcuts import render
+from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import status
@@ -13,8 +15,6 @@ from .api import (TokenBlacklistResponseSerializer,
                   TokenRefreshResponseSerializer,
                   TokenVerifyResponseSerializer)
 from .backend import EmailOrUsernameModelBackend
-from django.urls import reverse
-from django.http import HttpResponse
 
 try:
     template_name = settings.ERROR_TEMPLATE
@@ -47,7 +47,7 @@ def handler400(request, exception, *args, **argv):
         context={
             'exception': str(exception),
             'title': _('Error 400'),
-            'error': _('Solicitud Incorrecta'),
+            'error': _('Bad request'),
             'status': status,
             'error_favicon': ''
         }
@@ -63,7 +63,7 @@ def handler403(request, exception, *args, **argv):
         context={
             'exception': str(exception),
             'title': _('Error 403'),
-            'error': _('Solicitud Prohibida'),
+            'error': _('Prohibited request'),
             'status': status,
             'error_favicon': ''
         }
@@ -79,7 +79,7 @@ def handler404(request, exception, *args, **argv):
         context={
             'exception': str(exception),
             'title': _('Error 404'),
-            'error': _('Página no encontrada'),
+            'error': _('Page not found'),
             'status': status,
             'error_favicon': ''
         }
@@ -94,7 +94,7 @@ def handler500(request, *args, **argv):
         status=500,
         context={
             'title': _('Error 500'),
-            'error': _('Error del Servidor'),
+            'error': _('Server error'),
             'status': status,
             'error_favicon': ''
         }
