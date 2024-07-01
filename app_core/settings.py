@@ -44,7 +44,8 @@ CUSTOM_APPS = [
 
     'apps.project.page.index',
     
-    'apps.project.page.features.ai_features'
+    'apps.project.page.features.ai_features',
+    'apps.project.page.features.automation_features',
 ]
 
 INSTALLED_APPS = THIRD_PARTY_APPS + DJANGO_APPS + CUSTOM_APPS

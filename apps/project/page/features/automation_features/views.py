@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
-# Create your views here.
+class AutomationFeaturesTemplateView(TemplateView):
+    template_name = "project/page/features/automation_features/templates/index.html"

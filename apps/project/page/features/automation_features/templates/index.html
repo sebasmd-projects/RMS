@@ -1,0 +1,16 @@
+{% extends 'basic_template.html' %} {% load static i18n %}
+{% block title %} {% trans 'Automatic Data Processing System & PMS Data | Synonym Dev' %} {% endblock title %}
+{% block main %}
+<main class="main" id="main-section">
+    {% include 'sections/automation_hero.html' %}
+    
+    <div class="why-page-content data-content">
+        <div class="container">
+            {% include 'sections/benefits.html' %}
+            {% include 'sections/data_headed.html' %}
+        </div>
+        {% include 'sections/data_advantage.html' %}
+        {% include 'sections/pms.html' %}
+    </div>
+</main>
+{% endblock main %}
