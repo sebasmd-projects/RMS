@@ -29,13 +29,6 @@ $(document).on('ready', function () {
 	$('.landing__hero-form .button').on('click', function () {
 		$(this).parent('.landing__hero-form').addClass('landing__hero-form-success');
 	});
-	$('.footer-btn-submit').on('click', function () {
-		$.fancybox.open({ src: '#modal-thanks', type: 'inline' });
-	});
-	// $('.wire-transfer-email-send').on('click', function () {
-	// 	$('.wire-transfer__email-form').hide();
-	// 	$('.wire-transfer__form-result').show();
-	// });
 	$('.show-picker-on-click').on('click', function (event) {
 		try {
 			event.target.showPicker();
@@ -365,10 +358,6 @@ $(document).on('ready', function () {
 		$(`#${target}`).addClass('active');
 	}
 
-	//show modal
-	$('body').one('mouseleave', function () {
-		jQuery('.trial__not-leave-black').addClass('active');
-	});
 	$('.trial__not-leave-close').on('click', function () {
 		$('.trial__not-leave').removeClass('active');
 	});
@@ -379,18 +368,6 @@ $(document).on('ready', function () {
 		return false;
 	});
 
-	//demo lead modal
-	$('#demo-lead').submit(function () {
-		$.ajax({
-			type: 'POST',
-			url: '', // URL to which the request is sent
-			data: $(this).serialize(),
-		}).done(function () {
-			$('.demo-lead-modal__form').toggleClass('active');
-			$('.demo-lead-modal__video').toggleClass('active');
-		});
-		return false;
-	});
 
 	// International Telephone Input
 	if (document.querySelector('[id$=trial-phone]')) {
@@ -418,20 +395,6 @@ $(document).on('ready', function () {
 		$('.webinar-name input').val($(this).data('webinar-name'));
 		$('.webinar-display-name').text($(this).data('webinar-name'));
 		$('.webinar-date').text(webinarDate);
-	});
-
-	//Add new payment modal (activation page)
-	$('.activation-card .add-payment').fancybox({
-		// Returns the first step on modal close
-		afterClose: function () {
-			$('.add-payment__form').show();
-			$('.add-payment-modal__thank-you').hide();
-		},
-	});
-	// Shows Thank you section
-	$('.add-payment-modal .add-payment-modal__button').on('click', function () {
-		$('.add-payment__form').toggle();
-		$('.add-payment-modal__thank-you').toggle();
 	});
 });
 

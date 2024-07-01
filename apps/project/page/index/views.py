@@ -13,17 +13,14 @@ class IndexTemplateView(edit.FormView):
     template_name = 'project/page/index/templates/page/index.html'
     form_class = SubscribeNewsLetterForm
     success_url = reverse_lazy('index:home')
-
+    
     def form_valid(self, form):
         unique_id = form.cleaned_data.get('unique_id')
         if SubscribeNewsLetterModel.objects.filter(unique_id=unique_id).exists():
             form.add_error(None, _("This form has already been sent."))
             return self.form_invalid(form)
 
-        form.save()
-
-        current_language = get_language()
-        print(current_language)
+        subscriber = form.save()
         
         # send_mail(
         #     subject='Synonym Dev | You have subscribed to the newsletter',
