@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-30 22:47-0500\n"
-"PO-Revision-Date: 2024-06-30 22:49-0500\n"
+"POT-Creation-Date: 2024-07-01 12:57-0500\n"
+"PO-Revision-Date: 2024-07-01 12:54-0500\n"
 "Last-Translator: Sebastian Morales <sebasmoralesd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -28,29 +28,29 @@ msgid "email"
 msgstr "correo"
 
 #: .\apps\project\page\index\models.py:30
-#| msgid "Subscribe"
 msgid "Subscriber"
 msgstr "Suscriptor"
 
 #: .\apps\project\page\index\models.py:31
-#| msgid "Subscribe"
 msgid "Subscribers"
 msgstr "Suscriptores"
 
 #: .\apps\project\page\index\templates\base.html:11
 #: .\apps\project\page\index\templates\base.html:12
 #: .\apps\project\page\index\templates\page\index.html:4
-msgid "Best Residential Management Software | Sebastián Morales"
-msgstr "Mejor software de gestión residencial | Sebastián Morales"
+msgid "Best Residential Management Software | Synonym Dev"
+msgstr "Mejor software de gestión residencial | Synonym Dev"
 
 #: .\apps\project\page\index\templates\base.html:16
 #: .\apps\project\page\index\templates\base.html:17
-msgid ""
-"Affordable Residential Management Tool to Help Manage. Recognized by "
-"Salesforce. Request a demo!"
+msgid "Affordable Residential Management Tool to Help Manage. Request a demo!"
 msgstr ""
 "Herramienta de gestión residencial asequible para ayudar a gestionar. "
 "Solicite una demostración!"
+
+#: .\apps\project\page\index\templates\basic_template.html:27
+msgid "Login"
+msgstr "Iniciar Sesión"
 
 #: .\apps\project\page\index\templates\includes\footer.html:41
 msgid "Company:"
@@ -68,21 +68,24 @@ msgstr "Condiciones de uso"
 msgid "Privacy Policy"
 msgstr "Política de privacidad"
 
-#: .\apps\project\page\index\templates\includes\footer.html:90
-msgid "Subscribe"
-msgstr "Suscribirse"
-
-#: .\apps\project\page\index\templates\includes\footer.html:98
+#: .\apps\project\page\index\templates\includes\footer.html:87
 msgid ""
 "\n"
-"                            We send a monthly email with announcements, tips, news,\n"
-"                            feature updates, and important info. We'll only e-mail you\n"
+"                            We send a monthly email with announcements, "
+"tips, news,\n"
+"                            feature updates, and important info. We'll only "
+"e-mail you\n"
 "                            if it's important.\n"
 "                        "
 msgstr ""
 "\n"
 "Enviamos un correo electrónico mensual con anuncios, consejos, noticias,\n"
-"actualizaciones de funciones e información importante. Sólo te enviaremos un correo electrónico si es importante."
+"actualizaciones de funciones e información importante. Sólo te enviaremos un "
+"correo electrónico si es importante."
+
+#: .\apps\project\page\index\templates\includes\footer\form.html:9
+msgid "Subscribe"
+msgstr "Suscribirse"
 
 #: .\apps\project\page\index\templates\includes\nav.html:11
 msgid "HOME"
@@ -100,51 +103,47 @@ msgstr "CARACTERÍSTICAS PRINCIPALES"
 msgid "ARTIFICIAL INTELLIGENCE"
 msgstr "INTELIGENCIA ARTIFICIAL"
 
-#: .\apps\project\page\index\templates\includes\nav.html:36
+#: .\apps\project\page\index\templates\includes\nav.html:35
 msgid "AUTOMATIC DATA PROCESSING"
 msgstr "PROCESAMIENTO AUTOMÁTICO DE DATOS"
 
-#: .\apps\project\page\index\templates\includes\nav.html:41
-msgid "PMS on SALESFORCE"
-msgstr "PMS en SALESFORCE"
-
-#: .\apps\project\page\index\templates\includes\nav.html:46
+#: .\apps\project\page\index\templates\includes\nav.html:40
 msgid "PMS INTEGRATION"
 msgstr "INTEGRACIÓN PMS"
 
-#: .\apps\project\page\index\templates\includes\nav.html:54
+#: .\apps\project\page\index\templates\includes\nav.html:48
 msgid "PRICING"
 msgstr "PRECIOS"
 
-#: .\apps\project\page\index\templates\includes\nav.html:59
+#: .\apps\project\page\index\templates\includes\nav.html:53
 msgid "RESOURCES"
 msgstr "RECURSOS"
 
-#: .\apps\project\page\index\templates\includes\nav.html:68
+#: .\apps\project\page\index\templates\includes\nav.html:62
 msgid "CLIENT PORTAL"
 msgstr "PORTAL DEL CLIENTE"
 
-#: .\apps\project\page\index\templates\includes\nav.html:73
+#: .\apps\project\page\index\templates\includes\nav.html:67
 msgid "BLOG"
 msgstr "BLOG"
 
-#: .\apps\project\page\index\templates\includes\nav.html:78
+#: .\apps\project\page\index\templates\includes\nav.html:72
 msgid "FAQS"
 msgstr "Preguntas Frecuentes"
 
-#: .\apps\project\page\index\templates\includes\nav.html:83
+#: .\apps\project\page\index\templates\includes\nav.html:77
 msgid "CUSTOMER STORIES"
 msgstr "HISTORIAS DE CLIENTES"
 
-#: .\apps\project\page\index\templates\includes\nav.html:89
+#: .\apps\project\page\index\templates\includes\nav.html:85
 msgid "ABOUT US"
 msgstr "Conócenos"
 
-#: .\apps\project\page\index\templates\includes\nav.html:111
+#: .\apps\project\page\index\templates\includes\nav.html:109
 msgid "REQUEST A PLAYGROUND"
 msgstr "SOLICITAR UNA DEMO"
 
-#: .\apps\project\page\index\templates\includes\nav.html:116
+#: .\apps\project\page\index\templates\includes\nav.html:114
 msgid "SCHEDULE A MEETING"
 msgstr "PROGRAMAR UNA REUNIÓN"
 
@@ -258,141 +257,178 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\FAQ.html:85
 msgid ""
 "\n"
-"                        Our 24hr live support team will always be available to answer any questions you encounter on the app.\n"
+"                        Our 24hr live support team will always be available "
+"to answer any questions you encounter on the app.\n"
 "                    "
 msgstr ""
 "\n"
-"Nuestro equipo de soporte en vivo las 24 horas siempre estará disponible para responder cualquier pregunta que encuentre en la aplicación."
-
-#: .\apps\project\page\index\templates\page\sections\FAQ.html:90
-msgid ""
-"\n"
-"                        Want to know how to get the most out of our Property Management System features or your Salesforce cloud? We offer Salesforce consultations with our team of experts!\n"
-"                    "
-msgstr ""
-"\n"
-"¿Quiere saber cómo aprovechar al máximo las funciones de nuestro sistema de gestión de propiedades o su nube de Salesforce? ¡Ofrecemos consultas de Salesforce con nuestro equipo de expertos!"
+"Nuestro equipo de soporte en vivo las 24 horas siempre estará disponible "
+"para responder cualquier pregunta que encuentre en la aplicación."
 
 #: .\apps\project\page\index\templates\page\sections\centralised_accounting.html:5
 msgid ""
 "\n"
-"            <b>Integrated &amp; Centralised Accounting</b> Reduces Errors in Financial Reporting &amp; Management\n"
+"            <b>Integrated &amp; Centralised Accounting</b> Reduces Errors in "
+"Financial Reporting &amp; Management\n"
 "        "
 msgstr ""
 "\n"
-"<b>Integrado y mejorado La contabilidad centralizada</b> reduce los errores en los informes financieros y en los informes financieros y gestión"
+"<b>Integrado y mejorado La contabilidad centralizada</b> reduce los errores "
+"en los informes financieros y en los informes financieros y gestión"
 
 #: .\apps\project\page\index\templates\page\sections\centralised_accounting.html:23
 msgid ""
 "\n"
-"                            Booking provides you with landlord accounting software for rental property owners &amp; real estate investors.\n"
+"                            Booking provides you with landlord accounting "
+"software for rental property owners &amp; real estate investors.\n"
 "                        "
 msgstr ""
 "\n"
-"Booking le proporciona un software de contabilidad de propietarios para propietarios y propietarios de propiedades de alquiler. inversores inmobiliarios."
+"Booking le proporciona un software de contabilidad de propietarios para "
+"propietarios y propietarios de propiedades de alquiler. inversores "
+"inmobiliarios."
 
 #: .\apps\project\page\index\templates\page\sections\centralised_accounting.html:28
 msgid ""
 "\n"
-"                            Automatically sync your Booking properties &amp; view your numbers by property or unit.\n"
+"                            Automatically sync your Booking properties &amp; "
+"view your numbers by property or unit.\n"
 "                        "
 msgstr ""
 "\n"
-"Sincroniza automáticamente las propiedades y datos de tu reserva y vea sus números por propiedad o unidad."
+"Sincroniza automáticamente las propiedades y datos de tu reserva y vea sus "
+"números por propiedad o unidad."
 
 #: .\apps\project\page\index\templates\page\sections\centralised_accounting.html:33
 msgid ""
 "\n"
-"                            Import recent transaction data &amp; create matching transaction rules for easy bookkeeping. Also, get detailed financial reports and tax-ready IRS Schedule E reports.\n"
+"                            Import recent transaction data &amp; create "
+"matching transaction rules for easy bookkeeping. Also, get detailed "
+"financial reports and tax-ready IRS Schedule E reports.\n"
 "                        "
 msgstr ""
 "\n"
-"Importar datos de transacciones recientes y cree reglas de transacciones coincidentes para facilitar la contabilidad. Además, obtenga informes financieros detallados e informes del Anexo E del IRS listos para declarar impuestos."
+"Importar datos de transacciones recientes y cree reglas de transacciones "
+"coincidentes para facilitar la contabilidad. Además, obtenga informes "
+"financieros detallados e informes del Anexo E del IRS listos para declarar "
+"impuestos."
 
 #: .\apps\project\page\index\templates\page\sections\centralised_accounting.html:38
 msgid ""
 "\n"
-"                            Improved budgeting, billing, collections, recovery, reporting, and financial control built around your KPIs.\n"
+"                            Improved budgeting, billing, collections, "
+"recovery, reporting, and financial control built around your KPIs.\n"
 "                        "
 msgstr ""
 "\n"
-"Presupuestos, facturación, cobros, recuperación, informes y control financiero mejorados en torno a sus KPI."
+"Presupuestos, facturación, cobros, recuperación, informes y control "
+"financiero mejorados en torno a sus KPI."
 
 #: .\apps\project\page\index\templates\page\sections\features_1.html:17
 msgid ""
 "\n"
-"                        Manage your properties, residents, and accounts with our property management system.\n"
+"                        Manage your properties, residents, and accounts with "
+"our property management system.\n"
 "                    "
 msgstr ""
 "\n"
-"Administre sus propiedades, residentes y cuentas con nuestro sistema de administración de propiedades."
+"Administre sus propiedades, residentes y cuentas con nuestro sistema de "
+"administración de propiedades."
 
 #: .\apps\project\page\index\templates\page\sections\features_1.html:22
 msgid ""
 "\n"
-"                        Residential homeowners can now efficiently maximize profits through intelligent money management, automated payments, expense tracking, personalized reporting, and more.\n"
+"                        Residential homeowners can now efficiently maximize "
+"profits through intelligent money management, automated payments, expense "
+"tracking, personalized reporting, and more.\n"
 "                    "
 msgstr ""
 "\n"
-"Los propietarios de viviendas residenciales ahora pueden maximizar las ganancias de manera eficiente mediante la administración inteligente del dinero, pagos automatizados, seguimiento de gastos, informes personalizados y más."
+"Los propietarios de viviendas residenciales ahora pueden maximizar las "
+"ganancias de manera eficiente mediante la administración inteligente del "
+"dinero, pagos automatizados, seguimiento de gastos, informes personalizados "
+"y más."
 
 #: .\apps\project\page\index\templates\page\sections\features_1.html:27
 msgid ""
 "\n"
-"                        Enjoy our all-in-one Residential Property Management Software for Landlords with everything you need and Advanced settings that control all aspects of the app.\n"
+"                        Enjoy our all-in-one Residential Property Management "
+"Software for Landlords with everything you need and Advanced settings that "
+"control all aspects of the app.\n"
 "                    "
 msgstr ""
 "\n"
-"Disfrute de nuestro software de administración de propiedades residenciales todo en uno para propietarios con todo lo que necesita y configuraciones avanzadas que controlan todos los aspectos de la aplicación."
+"Disfrute de nuestro software de administración de propiedades residenciales "
+"todo en uno para propietarios con todo lo que necesita y configuraciones "
+"avanzadas que controlan todos los aspectos de la aplicación."
 
 #: .\apps\project\page\index\templates\page\sections\features_2.html:5
 msgid ""
 "User-Friendly, Customized Housing Experience with Our <b>Residential "
 "Management System</b>"
 msgstr ""
-"Experiencia de vivienda personalizada y fácil de usar con nuestro <b>Sistema"
-" de gestión residencial</b>"
+"Experiencia de vivienda personalizada y fácil de usar con nuestro <b>Sistema "
+"de gestión residencial</b>"
 
 #: .\apps\project\page\index\templates\page\sections\features_2.html:20
 msgid ""
 "\n"
-"                        Our rental property management software makes it easy for everyoneーlandlords, tenants, teammates, and maintenance personnel to stay on the same page.\n"
+"                        Our rental property management software makes it "
+"easy for everyoneーlandlords, tenants, teammates, and maintenance personnel "
+"to stay on the same page.\n"
 "                    "
 msgstr ""
 "\n"
-"Nuestro software de administración de propiedades de alquiler hace que sea fácil para todos: propietarios, inquilinos, compañeros de equipo y personal de mantenimiento mantenerse en sintonía."
+"Nuestro software de administración de propiedades de alquiler hace que sea "
+"fácil para todos: propietarios, inquilinos, compañeros de equipo y personal "
+"de mantenimiento mantenerse en sintonía."
 
 #: .\apps\project\page\index\templates\page\sections\features_2.html:25
 msgid ""
 "\n"
-"                        Leverage in-app notifications to tenants and Live customer support for landlords and tenants to keep your focus on prospects, residents, and staff.\n"
+"                        Leverage in-app notifications to tenants and Live "
+"customer support for landlords and tenants to keep your focus on prospects, "
+"residents, and staff.\n"
 "                    "
 msgstr ""
 "\n"
-"Aproveche las notificaciones en la aplicación para inquilinos y la atención al cliente en vivo para propietarios e inquilinos para mantener su atención en los clientes potenciales, los residentes y el personal."
+"Aproveche las notificaciones en la aplicación para inquilinos y la atención "
+"al cliente en vivo para propietarios e inquilinos para mantener su atención "
+"en los clientes potenciales, los residentes y el personal."
 
 #: .\apps\project\page\index\templates\page\sections\features_2.html:30
 msgid ""
 "\n"
-"                        Let your property management software do the work for you. Booking delivers an intuitive user experience, efficient workflows, and unmatched abilities to adapt to the operating model of your business.\n"
+"                        Let your property management software do the work "
+"for you. Booking delivers an intuitive user experience, efficient workflows, "
+"and unmatched abilities to adapt to the operating model of your business.\n"
 "                    "
 msgstr ""
 "\n"
-"Deje que su software de administración de propiedades haga el trabajo por usted. Booking ofrece una experiencia de usuario intuitiva, flujos de trabajo eficientes y capacidades inigualables para adaptarse al modelo operativo de su negocio."
+"Deje que su software de administración de propiedades haga el trabajo por "
+"usted. Booking ofrece una experiencia de usuario intuitiva, flujos de "
+"trabajo eficientes y capacidades inigualables para adaptarse al modelo "
+"operativo de su negocio."
 
 #: .\apps\project\page\index\templates\page\sections\features_2.html:35
 msgid ""
 "\n"
-"                        Deliver unique, persona-driven experiences tailored to specific users and roles that provide an easy and intuitive user experience across the entire solution, including non-Booking products from partners and third parties.\n"
+"                        Deliver unique, persona-driven experiences tailored "
+"to specific users and roles that provide an easy and intuitive user "
+"experience across the entire solution, including non-Booking products from "
+"partners and third parties.\n"
 "                    "
 msgstr ""
 "\n"
-"Ofrezca experiencias únicas, basadas en personas y adaptadas a usuarios y roles específicos que brinden una experiencia de usuario fácil e intuitiva en toda la solución, incluidos productos no relacionados con Booking de socios y terceros."
+"Ofrezca experiencias únicas, basadas en personas y adaptadas a usuarios y "
+"roles específicos que brinden una experiencia de usuario fácil e intuitiva "
+"en toda la solución, incluidos productos no relacionados con Booking de "
+"socios y terceros."
 
 #: .\apps\project\page\index\templates\page\sections\hero.html:18
 msgid ""
-"End-to-End <u>Residential</u> and <u>Property</u> Management System (RMS and"
-" PMS)"
+"End-to-End <u>Residential</u> and <u>Property</u> Management System (RMS and "
+"PMS)"
 msgstr ""
 "Sistema de gestión <u>residencial</u> y <u>propiedad</u> de extremo a "
 "extremo (RMS y PMS)"
@@ -415,47 +451,66 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\lms.html:21
 msgid ""
 "\n"
-"                            Using the Booking tenant lease system, you can send and sign documents with legal documentation of signatures. Safely and securely send a sign, and store leases.\n"
+"                            Using the Booking tenant lease system, you can "
+"send and sign documents with legal documentation of signatures. Safely and "
+"securely send a sign, and store leases.\n"
 "                        "
 msgstr ""
 "\n"
-"Utilizando el sistema de arrendamiento de inquilinos de Booking, puede enviar y firmar documentos con documentación legal de firmas. Envíe carteles y arrendamientos de tiendas de forma segura."
+"Utilizando el sistema de arrendamiento de inquilinos de Booking, puede "
+"enviar y firmar documentos con documentación legal de firmas. Envíe carteles "
+"y arrendamientos de tiendas de forma segura."
 
 #: .\apps\project\page\index\templates\page\sections\lms.html:26
 msgid ""
 "\n"
-"                            Add stored leases and documents to tenants’ profiles. If you upload leases from another source, your documents are ready to download or print—whenever or wherever you may be.\n"
+"                            Add stored leases and documents to tenants’ "
+"profiles. If you upload leases from another source, your documents are ready "
+"to download or print—whenever or wherever you may be.\n"
 "                        "
 msgstr ""
 "\n"
-"Agregue contratos de arrendamiento y documentos almacenados a los perfiles de los inquilinos. Si carga contratos de arrendamiento de otra fuente, sus documentos estarán listos para descargar o imprimir, cuando y donde quiera que esté."
+"Agregue contratos de arrendamiento y documentos almacenados a los perfiles "
+"de los inquilinos. Si carga contratos de arrendamiento de otra fuente, sus "
+"documentos estarán listos para descargar o imprimir, cuando y donde quiera "
+"que esté."
 
 #: .\apps\project\page\index\templates\page\sections\lms.html:31
 msgid ""
 "\n"
-"                            Enjoy Residential Reporting features such as Residential Rent Roll, Summary of Activity, and Leasing Agent Summary. Also, receive in-app notifications during the signing process.\n"
+"                            Enjoy Residential Reporting features such as "
+"Residential Rent Roll, Summary of Activity, and Leasing Agent Summary. Also, "
+"receive in-app notifications during the signing process.\n"
 "                        "
 msgstr ""
 "\n"
-"Disfrute de las funciones de informes residenciales, como la lista de alquileres residenciales, el resumen de actividad y el resumen del agente de arrendamiento. Además, reciba notificaciones dentro de la aplicación durante el proceso de firma."
+"Disfrute de las funciones de informes residenciales, como la lista de "
+"alquileres residenciales, el resumen de actividad y el resumen del agente de "
+"arrendamiento. Además, reciba notificaciones dentro de la aplicación durante "
+"el proceso de firma."
 
 #: .\apps\project\page\index\templates\page\sections\lms.html:36
 msgid ""
 "\n"
-"                            Simplify and automate the leasing process and deal tracking, accelerate the leasing process, and maximize revenue.\n"
+"                            Simplify and automate the leasing process and "
+"deal tracking, accelerate the leasing process, and maximize revenue.\n"
 "                        "
 msgstr ""
 "\n"
-"Simplifique y automatice el proceso de arrendamiento y el seguimiento de transacciones, acelere el proceso de arrendamiento y maximice los ingresos."
+"Simplifique y automatice el proceso de arrendamiento y el seguimiento de "
+"transacciones, acelere el proceso de arrendamiento y maximice los ingresos."
 
 #: .\apps\project\page\index\templates\page\sections\lms.html:41
 msgid ""
 "\n"
-"                            Access to Tenant Reporting features to track Lease Abstract, Tenant Delinquency, Tenant Sales, Demand Letters, and more.\n"
+"                            Access to Tenant Reporting features to track "
+"Lease Abstract, Tenant Delinquency, Tenant Sales, Demand Letters, and more.\n"
 "                        "
 msgstr ""
 "\n"
-"Acceda a las funciones de Informes de inquilinos para realizar un seguimiento del resumen de arrendamiento, la morosidad de los inquilinos, las ventas de los inquilinos, las cartas de demanda y más."
+"Acceda a las funciones de Informes de inquilinos para realizar un "
+"seguimiento del resumen de arrendamiento, la morosidad de los inquilinos, "
+"las ventas de los inquilinos, las cartas de demanda y más."
 
 #: .\apps\project\page\index\templates\page\sections\pms.html:5
 msgid ""
@@ -474,34 +529,51 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\pms.html:24
 msgid ""
 "\n"
-"                            Instantly see your portfolio based on your work, not the data. Track all details regarding Operating Performance, Rent Collections, Sales, Leasing, Tenant Health, and Occupancy.\n"
+"                            Instantly see your portfolio based on your work, "
+"not the data. Track all details regarding Operating Performance, Rent "
+"Collections, Sales, Leasing, Tenant Health, and Occupancy.\n"
 "                        "
 msgstr ""
 "\n"
-"Vea instantáneamente su cartera en función de su trabajo, no de los datos. Realice un seguimiento de todos los detalles relacionados con el rendimiento operativo, el cobro de alquileres, las ventas, el arrendamiento, la salud de los inquilinos y la ocupación."
+"Vea instantáneamente su cartera en función de su trabajo, no de los datos. "
+"Realice un seguimiento de todos los detalles relacionados con el rendimiento "
+"operativo, el cobro de alquileres, las ventas, el arrendamiento, la salud de "
+"los inquilinos y la ocupación."
 
 #: .\apps\project\page\index\templates\page\sections\pms.html:29
 msgid ""
 "\n"
-"                            Booking offers workflow management solutions based on your custom business controls while integrating data sources. You get automated reports from a single source of truth, producing unprecedented efficiency, accuracy, and repeatability.\n"
+"                            Booking offers workflow management solutions "
+"based on your custom business controls while integrating data sources. You "
+"get automated reports from a single source of truth, producing unprecedented "
+"efficiency, accuracy, and repeatability.\n"
 "                        "
 msgstr ""
 "\n"
-"Booking ofrece soluciones de gestión del flujo de trabajo basadas en sus controles comerciales personalizados al tiempo que integra fuentes de datos. Obtendrá informes automatizados de una única fuente veraz, lo que dará como resultado una eficiencia, precisión y repetibilidad sin precedentes."
+"Booking ofrece soluciones de gestión del flujo de trabajo basadas en sus "
+"controles comerciales personalizados al tiempo que integra fuentes de datos. "
+"Obtendrá informes automatizados de una única fuente veraz, lo que dará como "
+"resultado una eficiencia, precisión y repetibilidad sin precedentes."
 
 #: .\apps\project\page\index\templates\page\sections\pms.html:34
 msgid ""
 "\n"
-"                            Get 24/7 visibility into your portfolio’s performance with automatically generated reports updated in real time. Create income statements, balance sheets, and cash flow reports in just a few clicks.\n"
+"                            Get 24/7 visibility into your portfolio’s "
+"performance with automatically generated reports updated in real time. "
+"Create income statements, balance sheets, and cash flow reports in just a "
+"few clicks.\n"
 "                        "
 msgstr ""
 "\n"
-"Obtenga visibilidad las 24 horas del día, los 7 días de la semana, del rendimiento de su cartera con informes generados automáticamente y actualizados en tiempo real. Cree estados de resultados, balances e informes de flujo de efectivo con solo unos pocos clics."
+"Obtenga visibilidad las 24 horas del día, los 7 días de la semana, del "
+"rendimiento de su cartera con informes generados automáticamente y "
+"actualizados en tiempo real. Cree estados de resultados, balances e informes "
+"de flujo de efectivo con solo unos pocos clics."
 
 #: .\apps\project\page\index\templates\page\sections\pmw.html:5
 msgid ""
-"Comprehensive, Configurable &amp; Effective <b>Property Management "
-"Workflow</b> Solution"
+"Comprehensive, Configurable &amp; Effective <b>Property Management Workflow</"
+"b> Solution"
 msgstr ""
 "Integral, configurable y fácil de usar. Solución eficaz de <b>flujo de "
 "trabajo de gestión de propiedades</b>"
@@ -509,38 +581,53 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\pmw.html:21
 msgid ""
 "\n"
-"                            Easily manage maintenance with our rental management software. Spend more time doing what you want and less time on management duties.\n"
+"                            Easily manage maintenance with our rental "
+"management software. Spend more time doing what you want and less time on "
+"management duties.\n"
 "                        "
 msgstr ""
 "\n"
-"Gestione fácilmente el mantenimiento con nuestro software de gestión de alquileres. Dedique más tiempo a hacer lo que quiera y menos a tareas administrativas."
+"Gestione fácilmente el mantenimiento con nuestro software de gestión de "
+"alquileres. Dedique más tiempo a hacer lo que quiera y menos a tareas "
+"administrativas."
 
 #: .\apps\project\page\index\templates\page\sections\pmw.html:26
 msgid ""
 "\n"
-"                            Tenants can submit maintenance requests through the Booking Tenant application and categorize, prioritize &amp; send status updates for all maintenance requests through the tenant app online.\n"
+"                            Tenants can submit maintenance requests through "
+"the Booking Tenant application and categorize, prioritize &amp; send status "
+"updates for all maintenance requests through the tenant app online.\n"
 "                        "
 msgstr ""
 "\n"
-"Los inquilinos pueden enviar solicitudes de mantenimiento a través de la aplicación Booking Tenant y categorizar, priorizar y mantener. envíe actualizaciones de estado para todas las solicitudes de mantenimiento a través de la aplicación para inquilinos en línea."
+"Los inquilinos pueden enviar solicitudes de mantenimiento a través de la "
+"aplicación Booking Tenant y categorizar, priorizar y mantener. envíe "
+"actualizaciones de estado para todas las solicitudes de mantenimiento a "
+"través de la aplicación para inquilinos en línea."
 
 #: .\apps\project\page\index\templates\page\sections\pmw.html:31
 msgid ""
 "\n"
-"                            Track Collections, Occupancy, Sales, Maintenance, Leasing, and Lease Compliance by Tenant and Property in just a few clicks.\n"
+"                            Track Collections, Occupancy, Sales, "
+"Maintenance, Leasing, and Lease Compliance by Tenant and Property in just a "
+"few clicks.\n"
 "                        "
 msgstr ""
 "\n"
-"Realice un seguimiento de los cobros, la ocupación, las ventas, el mantenimiento, el arrendamiento y el cumplimiento del contrato de arrendamiento por inquilino y propiedad con solo unos pocos clics."
+"Realice un seguimiento de los cobros, la ocupación, las ventas, el "
+"mantenimiento, el arrendamiento y el cumplimiento del contrato de "
+"arrendamiento por inquilino y propiedad con solo unos pocos clics."
 
 #: .\apps\project\page\index\templates\page\sections\pmw.html:36
 msgid ""
 "\n"
-"                            Provide top-tier service and maintenance for residents with features including insurance tracking.\n"
+"                            Provide top-tier service and maintenance for "
+"residents with features including insurance tracking.\n"
 "                        "
 msgstr ""
 "\n"
-"Brinde servicio y mantenimiento de primer nivel para residentes con funciones que incluyen seguimiento de seguros."
+"Brinde servicio y mantenimiento de primer nivel para residentes con "
+"funciones que incluyen seguimiento de seguros."
 
 #: .\apps\project\page\index\templates\page\sections\pricing.html:11
 msgid "Our Residential Property Management Systems Pricing"
@@ -563,38 +650,51 @@ msgstr "<b>Soluciones de informes y análisis</b> con software personalizado"
 #: .\apps\project\page\index\templates\page\sections\report_analytics.html:21
 msgid ""
 "\n"
-"                            Experience our best-in-class reports and automation that gives your team easy access to insightful data that help drive results.\n"
+"                            Experience our best-in-class reports and "
+"automation that gives your team easy access to insightful data that help "
+"drive results.\n"
 "                        "
 msgstr ""
 "\n"
-"Experimente nuestros mejores informes y automatización que le brindan a su equipo fácil acceso a datos detallados que ayudan a generar resultados."
+"Experimente nuestros mejores informes y automatización que le brindan a su "
+"equipo fácil acceso a datos detallados que ayudan a generar resultados."
 
 #: .\apps\project\page\index\templates\page\sections\report_analytics.html:26
 msgid ""
 "\n"
-"                            Get 24/7 visibility into your portfolio’s performance with automatically generated reports in real time. Create income statements, balance sheets, cash flow reports, and more - in a few clicks.\n"
+"                            Get 24/7 visibility into your portfolio’s "
+"performance with automatically generated reports in real time. Create income "
+"statements, balance sheets, cash flow reports, and more - in a few clicks.\n"
 "                        "
 msgstr ""
 "\n"
-"Obtenga visibilidad las 24 horas del día, los 7 días de la semana, del rendimiento de su cartera con informes generados automáticamente en tiempo real. Cree estados de resultados, balances generales, informes de flujo de efectivo y más, con unos pocos clics."
+"Obtenga visibilidad las 24 horas del día, los 7 días de la semana, del "
+"rendimiento de su cartera con informes generados automáticamente en tiempo "
+"real. Cree estados de resultados, balances generales, informes de flujo de "
+"efectivo y más, con unos pocos clics."
 
 #: .\apps\project\page\index\templates\page\sections\report_analytics.html:31
 msgid ""
 "\n"
-"                            You get automated reports from a single source of truth, producing unprecedented efficiency, accuracy, and repeatability.\n"
+"                            You get automated reports from a single source "
+"of truth, producing unprecedented efficiency, accuracy, and repeatability.\n"
 "                        "
 msgstr ""
 "\n"
-"Obtendrá informes automatizados de una única fuente veraz, lo que producirá una eficiencia, precisión y repetibilidad sin precedentes."
+"Obtendrá informes automatizados de una única fuente veraz, lo que producirá "
+"una eficiencia, precisión y repetibilidad sin precedentes."
 
 #: .\apps\project\page\index\templates\page\sections\report_analytics.html:36
 msgid ""
 "\n"
-"                            Commercial Reporting to monitor Rent Roll, Vacant Suites, Expiring Leases, Sales Reports, Delinquencies, and Variance.\n"
+"                            Commercial Reporting to monitor Rent Roll, "
+"Vacant Suites, Expiring Leases, Sales Reports, Delinquencies, and Variance.\n"
 "                        "
 msgstr ""
 "\n"
-"Informes comerciales para monitorear la lista de alquileres, suites vacantes, arrendamientos vencidos, informes de ventas, morosidad y variaciones."
+"Informes comerciales para monitorear la lista de alquileres, suites "
+"vacantes, arrendamientos vencidos, informes de ventas, morosidad y "
+"variaciones."
 
 #: .\apps\project\page\index\templates\page\sections\rmsts.html:5
 msgid ""
@@ -606,33 +706,48 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\rmsts.html:21
 msgid ""
 "\n"
-"                            Collect rent online with our mobile app. Our rental software for landlords ensures that you can easily collect rent online without hidden fees. We offer customizable payment options for both landlords and tenants.\n"
+"                            Collect rent online with our mobile app. Our "
+"rental software for landlords ensures that you can easily collect rent "
+"online without hidden fees. We offer customizable payment options for both "
+"landlords and tenants.\n"
 "                        "
 msgstr ""
 "\n"
-"Cobra el alquiler en línea con nuestra aplicación móvil. Nuestro software de alquiler para propietarios garantiza que pueda cobrar fácilmente el alquiler en línea sin cargos ocultos. Ofrecemos opciones de pago personalizables tanto para propietarios como para inquilinos."
+"Cobra el alquiler en línea con nuestra aplicación móvil. Nuestro software de "
+"alquiler para propietarios garantiza que pueda cobrar fácilmente el alquiler "
+"en línea sin cargos ocultos. Ofrecemos opciones de pago personalizables "
+"tanto para propietarios como para inquilinos."
 
 #: .\apps\project\page\index\templates\page\sections\rmsts.html:26
 msgid ""
 "\n"
-"                            Collect mobile payments on time with auto-pay for tenants. Use multiple payment options such as cash, credit, debit, ACH, or ACH-only.\n"
+"                            Collect mobile payments on time with auto-pay "
+"for tenants. Use multiple payment options such as cash, credit, debit, ACH, "
+"or ACH-only.\n"
 "                        "
 msgstr ""
 "\n"
-"Cobra los pagos móviles a tiempo con el pago automático para inquilinos. Utilice múltiples opciones de pago, como efectivo, crédito, débito, ACH o solo ACH."
+"Cobra los pagos móviles a tiempo con el pago automático para inquilinos. "
+"Utilice múltiples opciones de pago, como efectivo, crédito, débito, ACH o "
+"solo ACH."
 
 #: .\apps\project\page\index\templates\page\sections\rmsts.html:31
 msgid ""
 "\n"
-"                            Put rent collection on autopilot. Let Booking onboard your tenants, send reminders when rent is due, and give you real-time updates when rent payments come through while avoiding the hassles of third-party apps.\n"
+"                            Put rent collection on autopilot. Let Booking "
+"onboard your tenants, send reminders when rent is due, and give you real-"
+"time updates when rent payments come through while avoiding the hassles of "
+"third-party apps.\n"
 "                        "
 msgstr ""
 "\n"
-"Poner el cobro del alquiler en piloto automático. Deje que Booking incorpore a sus inquilinos, envíe recordatorios cuando venza el alquiler y le brinde actualizaciones en tiempo real cuando lleguen los pagos del alquiler, evitando las molestias de las aplicaciones de terceros."
+"Poner el cobro del alquiler en piloto automático. Deje que Booking incorpore "
+"a sus inquilinos, envíe recordatorios cuando venza el alquiler y le brinde "
+"actualizaciones en tiempo real cuando lleguen los pagos del alquiler, "
+"evitando las molestias de las aplicaciones de terceros."
 
 #: .\apps\project\page\index\templates\page\sections\rvmskt.html:6
-msgid ""
-"Residential Visitor Management System Keeps Track of Visitor Activities"
+msgid "Residential Visitor Management System Keeps Track of Visitor Activities"
 msgstr ""
 "El sistema de gestión de visitantes residenciales realiza un seguimiento de "
 "las actividades de los visitantes"
@@ -640,29 +755,38 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\rvmskt.html:22
 msgid ""
 "\n"
-"                                Keep track of your visitor activity and pre-register or invite visitors. Multiunit Registration features are available to help register visitors for multiple units.\n"
+"                                Keep track of your visitor activity and pre-"
+"register or invite visitors. Multiunit Registration features are available "
+"to help register visitors for multiple units.\n"
 "                            "
 msgstr ""
 "\n"
-"Realice un seguimiento de la actividad de sus visitantes y regístrese previamente o invite a visitantes. Las funciones de registro de unidades múltiples están disponibles para ayudar a registrar visitantes para varias unidades."
+"Realice un seguimiento de la actividad de sus visitantes y regístrese "
+"previamente o invite a visitantes. Las funciones de registro de unidades "
+"múltiples están disponibles para ayudar a registrar visitantes para varias "
+"unidades."
 
 #: .\apps\project\page\index\templates\page\sections\rvmskt.html:27
 msgid ""
 "\n"
-"                                Manage all your short-stay and long-stay guests’ visits and parking using our visitor management system.\n"
+"                                Manage all your short-stay and long-stay "
+"guests’ visits and parking using our visitor management system.\n"
 "                            "
 msgstr ""
 "\n"
-"Administre todas las visitas y el estacionamiento de sus huéspedes de corta y larga estadía utilizando nuestro sistema de gestión de visitantes."
+"Administre todas las visitas y el estacionamiento de sus huéspedes de corta "
+"y larga estadía utilizando nuestro sistema de gestión de visitantes."
 
 #: .\apps\project\page\index\templates\page\sections\rvmskt.html:32
 msgid ""
 "\n"
-"                                Easily access visitor records and access to ensure your visitors' activities are appropriately regulated.\n"
+"                                Easily access visitor records and access to "
+"ensure your visitors' activities are appropriately regulated.\n"
 "                            "
 msgstr ""
 "\n"
-"Acceda fácilmente a los registros de visitantes y acceda para garantizar que las actividades de sus visitantes estén reguladas adecuadamente."
+"Acceda fácilmente a los registros de visitantes y acceda para garantizar que "
+"las actividades de sus visitantes estén reguladas adecuadamente."
 
 #: .\apps\project\page\index\templates\page\sections\speak_with_us.html:17
 msgid "Speak to Our Resident Management System Specialist"
@@ -671,8 +795,10 @@ msgstr "Hable con nuestro especialista en sistemas de gestión de residentes"
 #: .\apps\project\page\index\templates\page\sections\speak_with_us.html:20
 msgid ""
 "\n"
-"                        Now is your chance to experience the power of actionable\n"
-"                        reporting, intelligent automation, and customization of a\n"
+"                        Now is your chance to experience the power of "
+"actionable\n"
+"                        reporting, intelligent automation, and customization "
+"of a\n"
 "                        PMS that suits your needs.\n"
 "                    "
 msgstr ""
@@ -699,73 +825,84 @@ msgstr ""
 #: .\apps\project\page\index\templates\page\sections\why_us.html:22
 msgid ""
 "\n"
-"                    Booking RMS is in partnership with the #1 CRM\n"
-"                    platform- Salesforce. It offers a comprehensive deck of\n"
-"                    features that help simplify how you manage event bookings\n"
-"                    while boosting sales and enhancing collaboration among staff\n"
-"                    and clients.\n"
+"                    Offers a comprehensive deck of features that help "
+"simplify how you manage event bookings while boosting sales and enhancing "
+"collaboration among staff and clients.\n"
 "                "
 msgstr ""
 "\n"
-"Booking RMS está asociado con el CRM número uno plataforma- Salesforce. Ofrece una plataforma completa de\n"
-"Funciones que ayudan a simplificar la forma de gestionar las reservas de eventos.\n"
-"al mismo tiempo que impulsa las ventas y mejora la colaboración entre el personal\n"
-"y clientes."
+"Ofrece una gama completa de funciones que ayudan a simplificar la forma de "
+"gestionar las reservas de eventos, al mismo tiempo que aumentan las ventas y "
+"mejoran la colaboración entre el personal y los clientes."
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:32
+#: .\apps\project\page\index\templates\page\sections\why_us.html:28
 msgid "A unique software ecosystem"
 msgstr "Un ecosistema de software único"
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:34
+#: .\apps\project\page\index\templates\page\sections\why_us.html:30
 msgid ""
 "\n"
 "                        Booking open and connected approach lets you\n"
 "                        diversify your tech strategy through APIs and\n"
-"                        interoperability with partners and third-party providers.\n"
+"                        interoperability with partners and third-party "
+"providers.\n"
 "                    "
 msgstr ""
 "\n"
-"El enfoque de reserva abierto y conectado le permite diversifique su estrategia tecnológica a través de API y interoperabilidad con socios y proveedores externos."
+"El enfoque de reserva abierto y conectado le permite diversifique su "
+"estrategia tecnológica a través de API y interoperabilidad con socios y "
+"proveedores externos."
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:41
+#: .\apps\project\page\index\templates\page\sections\why_us.html:37
 msgid "User-centric approach"
 msgstr "Enfoque centrado en el usuario"
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:43
+#: .\apps\project\page\index\templates\page\sections\why_us.html:39
 msgid ""
 "\n"
-"                        Deliver unique, persona-driven experiences tailored to\n"
+"                        Deliver unique, persona-driven experiences tailored "
+"to\n"
 "                        specific users and roles that provide an easy and\n"
-"                        intuitive user experience across the entire solution,\n"
+"                        intuitive user experience across the entire "
+"solution,\n"
 "                        including non-Booking products from partners and\n"
 "                        third parties.\n"
 "                    "
 msgstr ""
 "\n"
-"Ofrezca experiencias únicas, impulsadas por personas y adaptadas a usuarios y roles específicos que proporcionan una forma fácil y experiencia de usuario intuitiva en toda la solución, incluidos productos no relacionados con Booking de socios y terceros."
+"Ofrezca experiencias únicas, impulsadas por personas y adaptadas a usuarios "
+"y roles específicos que proporcionan una forma fácil y experiencia de "
+"usuario intuitiva en toda la solución, incluidos productos no relacionados "
+"con Booking de socios y terceros."
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:52
+#: .\apps\project\page\index\templates\page\sections\why_us.html:48
 msgid "Centralized data"
 msgstr "Datos centralizados"
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:54
+#: .\apps\project\page\index\templates\page\sections\why_us.html:50
 msgid ""
 "\n"
-"                        Make smarter decisions and reduce risk with automated\n"
-"                        AI-driven insights extracted from your data. With a single\n"
+"                        Make smarter decisions and reduce risk with "
+"automated\n"
+"                        AI-driven insights extracted from your data. With a "
+"single\n"
 "                        point of access to every part of your residential\n"
-"                        business, you can create a frictionless data experience\n"
+"                        business, you can create a frictionless data "
+"experience\n"
 "                        that helps you chase opportunities, not problems.\n"
 "                    "
 msgstr ""
 "\n"
-"Tome decisiones más inteligentes y reduzca el riesgo con la automatización Información basada en IA extraída de sus datos. con un solo punto de acceso a cada parte de su residencial negocio, puede crear una experiencia de datos sin fricciones eso le ayuda a perseguir oportunidades, no problemas."
+"Tome decisiones más inteligentes y reduzca el riesgo con la automatización "
+"Información basada en IA extraída de sus datos. con un solo punto de acceso "
+"a cada parte de su residencial negocio, puede crear una experiencia de datos "
+"sin fricciones eso le ayuda a perseguir oportunidades, no problemas."
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:63
+#: .\apps\project\page\index\templates\page\sections\why_us.html:59
 msgid "Training and Support Included"
 msgstr "Capacitación y soporte incluidos"
 
-#: .\apps\project\page\index\templates\page\sections\why_us.html:65
+#: .\apps\project\page\index\templates\page\sections\why_us.html:61
 msgid ""
 "\n"
 "                        We teach your team how to leverage the power of the\n"
@@ -774,16 +911,33 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"Le enseñamos a su equipo cómo aprovechar el poder de la Plataforma de reservas entre funciones. Chat en vivo, Soporte telefónico y por correo electrónico con un miembro de nuestro equipo."
+"Le enseñamos a su equipo cómo aprovechar el poder de la Plataforma de "
+"reservas entre funciones. Chat en vivo, Soporte telefónico y por correo "
+"electrónico con un miembro de nuestro equipo."
 
 #: .\apps\project\page\index\views.py:21
 msgid "You have been successfully unsubscribed."
 msgstr "Has sido dado de baja con éxito."
 
-#: .\apps\project\page\index\views.py:32
+#: .\apps\project\page\index\views.py:61
 msgid "This form has already been sent."
 msgstr "Este formulario ya ha sido enviado."
 
-#: .\apps\project\page\index\views.py:37
+#: .\apps\project\page\index\views.py:69
 msgid "This email is already subscribed."
 msgstr "Este correo electrónico ya está suscrito."
+
+#~ msgid "PMS on SALESFORCE"
+#~ msgstr "PMS en SALESFORCE"
+
+#~ msgid ""
+#~ "\n"
+#~ "                        Want to know how to get the most out of our "
+#~ "Property Management System features or your Salesforce cloud? We offer "
+#~ "Salesforce consultations with our team of experts!\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "¿Quiere saber cómo aprovechar al máximo las funciones de nuestro sistema "
+#~ "de gestión de propiedades o su nube de Salesforce? ¡Ofrecemos consultas "
+#~ "de Salesforce con nuestro equipo de expertos!"

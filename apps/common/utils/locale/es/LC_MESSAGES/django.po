@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-30 22:47-0500\n"
+"POT-Creation-Date: 2024-07-01 12:53-0500\n"
 "PO-Revision-Date: 2024-06-30 22:48-0500\n"
 "Last-Translator: Sebastian Morales <sebasmoralesd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,6 @@ msgid "language"
 msgstr "idioma"
 
 #: .\apps\common\utils\models.py:24
-#| msgid "creado"
 msgid "created"
 msgstr "creado"
 
@@ -61,27 +60,22 @@ msgid "updated"
 msgstr "actualizado"
 
 #: .\apps\common\utils\models.py:36
-#| msgid "esta activo"
 msgid "is active"
 msgstr "activo"
 
 #: .\apps\common\utils\models.py:41
-#| msgid "prioridad"
 msgid "priority"
 msgstr "prioridad"
 
 #: .\apps\common\utils\models.py:54
-#| msgid "Bad request"
 msgid "requests"
 msgstr "peticiones"
 
 #: .\apps\common\utils\models.py:82
-#| msgid "Bad request"
 msgid "Request"
 msgstr "Petición"
 
 #: .\apps\common\utils\models.py:83
-#| msgid "Bad request"
 msgid "Requests"
 msgstr "Peticiones"
 
