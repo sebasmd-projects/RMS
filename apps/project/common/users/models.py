@@ -68,7 +68,7 @@ class UserModel(TimeStampedModel, AbstractUser):
         return f"{self.get_full_name()}"
 
     class Meta:
-        db_table = 'apps_project_common_user'
+        db_table = 'apps_project_common_users_user'
         verbose_name = _('User')
         verbose_name_plural = _('Users')
 

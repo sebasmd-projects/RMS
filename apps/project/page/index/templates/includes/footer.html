@@ -82,7 +82,8 @@
                             </a>
                         </nav>
                         <form method="post" class="footer__form">
-                            <input type="text" value="" required="required" placeholder="{% trans 'Enter Your Email' %}"/>
+                            {% csrf_token %}
+                            {{ subscribe_form.email }}
                             <button class="button footer-btn-submit" type="submit">
                                 {% trans 'Subscribe' %}
                             </button>

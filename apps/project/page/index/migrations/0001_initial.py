@@ -2,6 +2,7 @@
 
 from django.db import migrations, models
 import django.utils.timezone
+import uuid
 
 
 class Migration(migrations.Migration):
@@ -13,7 +14,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='RequestLogModel',
+            name='SubscribeNewsLetterModel',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('language', models.CharField(blank=True, default='es', max_length=50, null=True, verbose_name='language')),
@@ -21,12 +22,13 @@ class Migration(migrations.Migration):
                 ('updated', models.DateTimeField(auto_now=True, verbose_name='updated')),
                 ('is_active', models.BooleanField(default=True, verbose_name='is active')),
                 ('default_order', models.PositiveIntegerField(blank=True, default=1, null=True, verbose_name='priority')),
-                ('requests', models.JSONField(blank=True, default=dict, null=True, verbose_name='requests')),
+                ('email', models.EmailField(max_length=254, verbose_name='email')),
+                ('unique_id', models.UUIDField(default=uuid.uuid4, unique=True)),
             ],
             options={
-                'verbose_name': 'Request',
-                'verbose_name_plural': 'Requests',
-                'db_table': 'apps_common_utils_requestlog',
+                'verbose_name': 'Subscriber',
+                'verbose_name_plural': 'Subscribers',
+                'db_table': 'apps_project_page_subscribenewsletter',
             },
         ),
     ]
