@@ -34,3 +34,5 @@ class IndexTemplateView(edit.FormView):
         #     recipient_list=[subscribe_newsletter.email],
         #     fail_silently=False
         # )
+        
+        return super().form_valid(form)
