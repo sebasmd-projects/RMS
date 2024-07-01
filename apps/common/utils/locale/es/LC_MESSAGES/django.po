@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-30 00:05-0500\n"
-"PO-Revision-Date: 2024-06-30 00:06-0500\n"
-"Last-Translator: Sebastián Morales <sebasmoralesd@gmail.com>\n"
+"POT-Creation-Date: 2024-06-30 22:47-0500\n"
+"PO-Revision-Date: 2024-06-30 22:48-0500\n"
+"Last-Translator: Sebastian Morales <sebasmoralesd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -48,31 +48,41 @@ msgid "origin"
 msgstr "origen"
 
 #: .\apps\common\utils\models.py:16
-msgid "idioma"
+msgid "language"
 msgstr "idioma"
 
 #: .\apps\common\utils\models.py:24
-msgid "creado"
+#| msgid "creado"
+msgid "created"
 msgstr "creado"
 
 #: .\apps\common\utils\models.py:30
-msgid "actualizado"
+msgid "updated"
 msgstr "actualizado"
 
 #: .\apps\common\utils\models.py:36
-msgid "esta activo"
+#| msgid "esta activo"
+msgid "is active"
 msgstr "activo"
 
 #: .\apps\common\utils\models.py:41
-msgid "prioridad"
+#| msgid "prioridad"
+msgid "priority"
 msgstr "prioridad"
 
 #: .\apps\common\utils\models.py:54
-msgid "peticiones"
+#| msgid "Bad request"
+msgid "requests"
 msgstr "peticiones"
 
-#: .\apps\common\utils\models.py:82 .\apps\common\utils\models.py:83
-msgid "Peticiones"
+#: .\apps\common\utils\models.py:82
+#| msgid "Bad request"
+msgid "Request"
+msgstr "Petición"
+
+#: .\apps\common\utils\models.py:83
+#| msgid "Bad request"
+msgid "Requests"
 msgstr "Peticiones"
 
 #: .\apps\common\utils\views.py:49
@@ -106,6 +116,18 @@ msgstr "Error 500"
 #: .\apps\common\utils\views.py:97
 msgid "Server error"
 msgstr "Error del Servidor"
+
+#~ msgid "idioma"
+#~ msgstr "idioma"
+
+#~ msgid "actualizado"
+#~ msgstr "actualizado"
+
+#~ msgid "peticiones"
+#~ msgstr "peticiones"
+
+#~ msgid "Peticiones"
+#~ msgstr "Peticiones"
 
 #~ msgid "Solicitud Incorrecta"
 #~ msgstr "Solicitud Incorrecta"

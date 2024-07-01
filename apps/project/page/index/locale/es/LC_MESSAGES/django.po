@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 23:31-0500\n"
-"PO-Revision-Date: 2024-06-30 00:13-0500\n"
-"Last-Translator: Sebastián Morales <sebasmoralesd@gmail.com>\n"
+"POT-Creation-Date: 2024-06-30 22:47-0500\n"
+"PO-Revision-Date: 2024-06-30 22:49-0500\n"
+"Last-Translator: Sebastian Morales <sebasmoralesd@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\apps\project\page\index\forms.py:16
+msgid "Enter Your Email"
+msgstr "Introduce tu Correo"
+
+#: .\apps\project\page\index\models.py:16
+msgid "email"
+msgstr "correo"
+
+#: .\apps\project\page\index\models.py:30
+#| msgid "Subscribe"
+msgid "Subscriber"
+msgstr "Suscriptor"
+
+#: .\apps\project\page\index\models.py:31
+#| msgid "Subscribe"
+msgid "Subscribers"
+msgstr "Suscriptores"
 
 #: .\apps\project\page\index\templates\base.html:11
 #: .\apps\project\page\index\templates\base.html:12
@@ -50,15 +68,11 @@ msgstr "Condiciones de uso"
 msgid "Privacy Policy"
 msgstr "Política de privacidad"
 
-#: .\apps\project\page\index\templates\includes\footer.html:85
-msgid "Enter Your Email"
-msgstr "Introduce tu Correo"
-
-#: .\apps\project\page\index\templates\includes\footer.html:87
+#: .\apps\project\page\index\templates\includes\footer.html:90
 msgid "Subscribe"
 msgstr "Suscribirse"
 
-#: .\apps\project\page\index\templates\includes\footer.html:92
+#: .\apps\project\page\index\templates\includes\footer.html:98
 msgid ""
 "\n"
 "                            We send a monthly email with announcements, tips, news,\n"
@@ -761,3 +775,15 @@ msgid ""
 msgstr ""
 "\n"
 "Le enseñamos a su equipo cómo aprovechar el poder de la Plataforma de reservas entre funciones. Chat en vivo, Soporte telefónico y por correo electrónico con un miembro de nuestro equipo."
+
+#: .\apps\project\page\index\views.py:21
+msgid "You have been successfully unsubscribed."
+msgstr "Has sido dado de baja con éxito."
+
+#: .\apps\project\page\index\views.py:32
+msgid "This form has already been sent."
+msgstr "Este formulario ya ha sido enviado."
+
+#: .\apps\project\page\index\views.py:37
+msgid "This email is already subscribed."
+msgstr "Este correo electrónico ya está suscrito."
