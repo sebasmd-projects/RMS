@@ -1,6 +1,10 @@
 from django.urls import path
 
-from .views import IndexTemplateView, UnsubscribeView
+from .views import (
+    IndexTemplateView,
+    SubscribeNewsLetterFormView,
+    UnsubscribeView
+)
 
 app_name = "index"
 
@@ -9,6 +13,11 @@ urlpatterns = [
         '',
         IndexTemplateView.as_view(),
         name='home'
+    ),
+    path(
+        'newsletter',
+        SubscribeNewsLetterFormView.as_view(),
+        name='newsletter'
     ),
     path(
         'unsuscribe/<uuid:unique_id>/',

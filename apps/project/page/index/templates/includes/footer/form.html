@@ -1,0 +1,14 @@
+{% load static i18n %}
+
+<form method="post" action="{% url 'index:newsletter' %}">
+    {% csrf_token %}
+    {{ subscribe_newsletter.unique_id }}
+    <input type="hidden" name="language" value="{{ LANGUAGE_CODE }}" id="id_language">
+    <div class="footer__form">
+        {{ subscribe_newsletter.email }}
+        <button class="button footer-btn-submit contact-form" type="submit">{% trans 'Subscribe' %}</button>
+    </div>
+    {% if subscribe_newsletter.errors %}
+        {{ subscribe_newsletter.unique_id.errors}}
+    {% endif %}
+</form>
