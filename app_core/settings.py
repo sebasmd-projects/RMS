@@ -43,6 +43,8 @@ CUSTOM_APPS = [
     'apps.project.common.users',
 
     'apps.project.page.index',
+    
+    'apps.project.page.features.ai_features'
 ]
 
 INSTALLED_APPS = THIRD_PARTY_APPS + DJANGO_APPS + CUSTOM_APPS
